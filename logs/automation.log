@@ -1,0 +1,6 @@
+2025-03-14 00:44:57 INFO  TC_005_BSKT_CreateFundManagerTest:21 - **** Starting TC_005_BSKT_CreateFundManagerTest *****
+2025-03-14 00:44:57 INFO  TC_005_BSKT_CreateFundManagerTest:28 - Clicked on login Link.. 
+2025-03-14 00:44:57 INFO  TC_005_BSKT_CreateFundManagerTest:33 - Providing Admin Credentials...
+2025-03-14 00:45:03 INFO  TC_005_BSKT_CreateFundManagerTest:50 - Navigated to Create Fund Manager page.
+2025-03-14 00:45:10 INFO  TC_005_BSKT_CreateFundManagerTest:73 - Test Case Passed: Fund Manager created successfully.
+2025-03-14 00:45:10 INFO  TC_005_BSKT_CreateFundManagerTest:86 - ***** Finished TC_005_BSKT_CreateFundManagerTest *****
