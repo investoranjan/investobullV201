@@ -15,12 +15,14 @@
 
 </groups>
         <classes>
-        <!-- <class name="testCases.TC_001_BSKT__SuccessfulLoginTest"/> 
+        <class name="testCases.TC_001_BSKT__SuccessfulLoginTest"/> 
         <class name="testCases.TC_002_BSKT_FundManagerRedirectionTest"/>
         <class name="testCases.TC_003_BSKT_FundManagerDetailsTest"/>
-        <class name="testCases.TC_004_BSKT_CreateFundManagerPageTest"/>-->
+        <class name="testCases.TC_004_BSKT_CreateFundManagerPageTest"/>
         
         <class name="testCases.TC_005_BSKT_CreateFundManagerTest"/>
+        
+       <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> 
        
         </classes>
     </test>

@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_005_BSKT_CreateFundManagerTest">
+      <class name="testCases.TC_006_BSKT_InvalidFundManagerTest">
         <methods>
           <include name="tearDown"/>
+          <include name="createFundManagerWithInvalidData"/>
           <include name="setup"/>
-          <include name="createFundManager"/>
         </methods>
-      </class> <!-- testCases.TC_005_BSKT_CreateFundManagerTest -->
+      </class> <!-- testCases.TC_006_BSKT_InvalidFundManagerTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

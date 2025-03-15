@@ -49,8 +49,23 @@ public class FundManagerPage extends BasePage {
 	@FindBy(xpath="//button[normalize-space()='Save Fund Manager']")
 	WebElement btnSubmit;
 	
+	@FindBy(xpath="//p[contains(text(),'Special characters and number are not allowed in F')]")
+	WebElement firstNameError;
 	
+	@FindBy(xpath="//p[contains(text(),'Special characters and number are not allowed in L')]")
+	WebElement lastNameError;
 	
+	@FindBy(xpath="//p[normalize-space()='Plase enter valid Email id.']")
+	WebElement emailError;
+	
+	@FindBy(xpath="//p[normalize-space()='Plase enter valid 10 digit Phone Number']")
+	WebElement phoneNoError;
+	
+	@FindBy(xpath="//p[normalize-space()='Years of experience is required!']")
+	WebElement experienceError ;
+	
+	@FindBy(xpath="//p[normalize-space()='Description is required!']")
+	WebElement descriptionError ;
 	
 	
 	
@@ -109,5 +124,31 @@ public class FundManagerPage extends BasePage {
 	    return createFundManagerHeader.isDisplayed();
 	}
 	
+	
+	public boolean isFirstNameErrorDisplayed() {
+		return firstNameError.isDisplayed();
+	}
+	
+	public boolean isLastNameErrorDisplayed() {
+		return lastNameError.isDisplayed();
+	}
+	
+	public boolean isEmailErrorDisplayed() {
+		
+		return emailError.isDisplayed();
+	}
+	
+	public boolean isPhonenumberErrorDisplayed() {
+		return phoneNoError.isDisplayed();
+		
+	}
+	
+	public boolean isExperienceErrorDisplayed() {
+		return experienceError.isDisplayed();
+	}
+	
+	public boolean isDescriptionErrorDisplayed() {
+		return descriptionError.isDisplayed();
+	}
 
 }
