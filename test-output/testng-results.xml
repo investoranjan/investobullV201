@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T17:39:01 IST" name="Master Suite" finished-at="2025-03-15T17:39:17 IST" duration-ms="15366">
+  <suite started-at="2025-03-15T17:53:07 IST" name="Master Suite" finished-at="2025-03-15T17:53:23 IST" duration-ms="16064">
     <groups>
     </groups>
-    <test started-at="2025-03-15T17:39:01 IST" name="Test" finished-at="2025-03-15T17:39:17 IST" duration-ms="15366">
-      <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_BSKT_InvalidPhoneNumberTest@22295ec4]" started-at="2025-03-15T17:39:02 IST" name="setup" finished-at="2025-03-15T17:39:08 IST" duration-ms="6367" status="PASS">
+    <test started-at="2025-03-15T17:53:07 IST" name="Test" finished-at="2025-03-15T17:53:23 IST" duration-ms="16064">
+      <class name="testCases.TC_008_BSKT_InvalidEmailTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_008_BSKT_InvalidEmailTest@22295ec4]" started-at="2025-03-15T17:53:08 IST" name="setup" finished-at="2025-03-15T17:53:14 IST" duration-ms="6051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createFundManagerWithInvalidPhoneNumber()[pri:0, instance:testCases.TC_007_BSKT_InvalidPhoneNumberTest@22295ec4]" started-at="2025-03-15T17:39:08 IST" name="createFundManagerWithInvalidPhoneNumber" finished-at="2025-03-15T17:39:16 IST" duration-ms="8230" status="PASS">
+        <test-method signature="createFundManagerWithInvalidEmail()[pri:0, instance:testCases.TC_008_BSKT_InvalidEmailTest@22295ec4]" started-at="2025-03-15T17:53:14 IST" name="createFundManagerWithInvalidEmail" finished-at="2025-03-15T17:53:23 IST" duration-ms="9212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createFundManagerWithInvalidPhoneNumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_007_BSKT_InvalidPhoneNumberTest@22295ec4]" started-at="2025-03-15T17:39:16 IST" name="tearDown" finished-at="2025-03-15T17:39:17 IST" duration-ms="247" status="PASS">
+        </test-method> <!-- createFundManagerWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_008_BSKT_InvalidEmailTest@22295ec4]" started-at="2025-03-15T17:53:23 IST" name="tearDown" finished-at="2025-03-15T17:53:23 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_007_BSKT_InvalidPhoneNumberTest -->
+      </class> <!-- testCases.TC_008_BSKT_InvalidEmailTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

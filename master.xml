@@ -3,31 +3,32 @@
 
 <suite name="Master Suite">
 
-<listeners>
-<listener class-name="utilities.ExtentReportManager"/>
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
 
-</listeners>
-    <test thread-count="5" name="Test">
-        <parameter name="os" value="Windows"/>
-        <parameter name="browser" value="chrome"/>
-        
-        <groups>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
 
-</groups>
-        <classes>
-        
-        <!-- 
+		<groups>
+
+		</groups>
+		<classes>
+
+			<!-- 
         <class name="testCases.TC_001_BSKT__SuccessfulLoginTest"/> 
         <class name="testCases.TC_002_BSKT_FundManagerRedirectionTest"/>
         <class name="testCases.TC_003_BSKT_FundManagerDetailsTest"/>
         <class name="testCases.TC_004_BSKT_CreateFundManagerPageTest"/>
-        
         <class name="testCases.TC_005_BSKT_CreateFundManagerTest"/>
-        
-       <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> -->
-       
-         <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest"/>
-       
-        </classes>
-    </test>
+        <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> 
+	    <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />-->
+	    
+	    <class name="testCases.TC_008_BSKT_InvalidEmailTest" />
+			
+			
+
+		</classes>
+	</test>
 </suite>
