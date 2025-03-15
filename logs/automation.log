@@ -67,3 +67,28 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Element: [[ChromeDriver: chrome on windows (ced7bc8be56bbb0107e27da6c28db685)] -> xpath: //a[@id='basketAdmin']]
 Session ID: ced7bc8be56bbb0107e27da6c28db685
 2025-03-15 16:37:02 INFO  TC_006_BSKT_InvalidFundManagerTest:73 - ****Finished TC_006_BSKT_InvalidFundManagerTest *****
+2025-03-15 17:36:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:16 - ****Started TC_007_BSKT_InvalidPhoneNumberTest ****
+2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:22 - Clicked on login details
+2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:27 - Providing Admin Credentials...
+2025-03-15 17:38:36 ERROR TC_007_BSKT_InvalidPhoneNumberTest:60 - Test failedelement click intercepted: Element <a _ngcontent-serveapp-c795886533="" id="basketAdmin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">...</a> is not clickable at point (920, 17). Other element would receive the click: <div _ngcontent-serveapp-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f365b78b388e240201c40f1dfcac2246, clickElement {id=f.636233256F079853DCB0851D9D360C72.d.F6C172C3F75EB3334BA2B4C461CED4F1.e.1024}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56294}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56294/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f365b78b388e240201c40f1dfcac2246)] -> xpath: //a[@id='basketAdmin']]
+Session ID: f365b78b388e240201c40f1dfcac2246
+2025-03-15 17:38:36 INFO  TC_007_BSKT_InvalidPhoneNumberTest:65 - ****Finished TC_007_BSKT_InvalidPhoneNumberTest****
+2025-03-15 17:39:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:16 - ****Started TC_007_BSKT_InvalidPhoneNumberTest ****
+2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:22 - Clicked on login details
+2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:27 - Providing Admin Credentials...
+2025-03-15 17:39:13 INFO  TC_007_BSKT_InvalidPhoneNumberTest:40 - Navigated to Create Fund Manager page.
+2025-03-15 17:39:16 INFO  TC_007_BSKT_InvalidPhoneNumberTest:55 - Test Case Passed: Error message displayed for invalid phone number.
+2025-03-15 17:39:16 INFO  TC_007_BSKT_InvalidPhoneNumberTest:65 - ****Finished TC_007_BSKT_InvalidPhoneNumberTest****
