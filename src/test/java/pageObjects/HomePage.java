@@ -20,6 +20,9 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Fund Managers']")
 	WebElement fundManagersLink;
 	
+	@FindBy(xpath="//a[normalize-space()='Basket Admin Approval']")
+	WebElement basketApprovalLink;
+	
 	public void clicklogin() {
 		lnklogin.click();
 		
@@ -33,7 +36,10 @@ public class HomePage extends BasePage {
 	public void clickFundManagers() {
 		fundManagersLink.click();
     }
-
+	
+	public void clickbasketApproval() {
+		basketApprovalLink.click();
+	}
 }
 
 

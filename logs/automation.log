@@ -1,103 +1,11 @@
-2025-03-15 16:31:46 INFO  Utils:112 - [TestNG] Running:
+2025-03-18 00:10:39 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
 
-2025-03-15 16:33:10 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 16:33:16 INFO  TC_006_BSKT_InvalidFundManagerTest:16 - ****Starting TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 16:33:16 INFO  TC_006_BSKT_InvalidFundManagerTest:22 - Click on login Link
-2025-03-15 16:33:20 INFO  TC_006_BSKT_InvalidFundManagerTest:42 - Navigated to Create Fund Manager page.
-2025-03-15 16:33:33 ERROR TC_006_BSKT_InvalidFundManagerTest:68 - Test failed no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Minimum 10 Characters required in Description.']"}
-  (Session info: chrome=134.0.6998.89)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8185521a0d2cb0c68c8a5da5dc78f17e, findElement {value=//p[normalize-space()='Minimum 10 Characters required in Description.'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54177/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8185521a0d2cb0c68c8a5da5dc78f17e
-2025-03-15 16:33:33 INFO  TC_006_BSKT_InvalidFundManagerTest:73 - ****Finished TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 16:34:48 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 16:34:54 INFO  TC_006_BSKT_InvalidFundManagerTest:16 - ****Starting TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 16:34:54 INFO  TC_006_BSKT_InvalidFundManagerTest:22 - Click on login Link
-2025-03-15 16:35:00 INFO  TC_006_BSKT_InvalidFundManagerTest:42 - Navigated to Create Fund Manager page.
-2025-03-15 16:35:04 INFO  TC_006_BSKT_InvalidFundManagerTest:62 - Test Case Passed: Invalid data validation messages displayed successfully.
-2025-03-15 16:35:04 INFO  TC_006_BSKT_InvalidFundManagerTest:73 - ****Finished TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 16:35:27 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 16:35:37 INFO  TC_001_BSKT__SuccessfulLoginTest:16 - **** Starting TC_001_BSKT__SuccessfulLoginTest *****
-2025-03-15 16:35:38 INFO  TC_001_BSKT__SuccessfulLoginTest:25 - Clicked on login Link.. 
-2025-03-15 16:35:38 INFO  TC_001_BSKT__SuccessfulLoginTest:30 - Providing customer details...
-2025-03-15 16:35:39 INFO  TC_001_BSKT__SuccessfulLoginTest:38 - Validating expected message..
-2025-03-15 16:35:44 INFO  TC_001_BSKT__SuccessfulLoginTest:51 - ***** Finished TC_001_BSKT__SuccessfulLoginTest *****
-2025-03-15 16:36:00 INFO  TC_002_BSKT_FundManagerRedirectionTest:17 - **** Starting TC_002_BSKT_FundManagerRedirectionTest *****
-2025-03-15 16:36:00 INFO  TC_002_BSKT_FundManagerRedirectionTest:26 - Clicked on login Link.. 
-2025-03-15 16:36:00 INFO  TC_002_BSKT_FundManagerRedirectionTest:31 - Providing Admin Credentials...
-2025-03-15 16:36:05 INFO  TC_002_BSKT_FundManagerRedirectionTest:48 - Validating expected message..
-2025-03-15 16:36:05 INFO  TC_002_BSKT_FundManagerRedirectionTest:56 - ***** Finished TC_002_BSKT_FundManagerRedirectionTest *****
-2025-03-15 16:36:12 INFO  TC_003_BSKT_FundManagerDetailsTest:17 - **** Starting TC_003_BSKT_FundManagerDetailsTest *****
-2025-03-15 16:36:13 INFO  TC_003_BSKT_FundManagerDetailsTest:26 - Clicked on login Link.. 
-2025-03-15 16:36:13 INFO  TC_003_BSKT_FundManagerDetailsTest:31 - Providing Admin Credentials...
-2025-03-15 16:36:17 INFO  TC_003_BSKT_FundManagerDetailsTest:48 - Test Case Passed: Fund Manager details displayed successfully.
-2025-03-15 16:36:17 INFO  TC_003_BSKT_FundManagerDetailsTest:60 - ***** Finished TC_003_BSKT_FundManagerDetailsTest *****
-2025-03-15 16:36:23 INFO  TC_004_BSKT_CreateFundManagerPageTest:16 - **** Starting TC_004_BSKT_CreateFundManagerPageTest *****
-2025-03-15 16:36:23 INFO  TC_004_BSKT_CreateFundManagerPageTest:23 - Clicked on login Link.. 
-2025-03-15 16:36:23 INFO  TC_004_BSKT_CreateFundManagerPageTest:27 - Providing Admin Credentials...
-2025-03-15 16:36:29 INFO  TC_004_BSKT_CreateFundManagerPageTest:38 - Clicked on Create Fund Manager button.
-2025-03-15 16:36:29 INFO  TC_004_BSKT_CreateFundManagerPageTest:47 - ✅ Test Passed: Create Fund Manager page displayed successfully.
-2025-03-15 16:36:29 INFO  TC_004_BSKT_CreateFundManagerPageTest:57 - ***** Finished TC_004_BSKT_CreateFundManagerPageTest *****
-2025-03-15 16:36:34 INFO  TC_005_BSKT_CreateFundManagerTest:21 - **** Starting TC_005_BSKT_CreateFundManagerTest *****
-2025-03-15 16:36:34 INFO  TC_005_BSKT_CreateFundManagerTest:28 - Clicked on login Link.. 
-2025-03-15 16:36:34 INFO  TC_005_BSKT_CreateFundManagerTest:33 - Providing Admin Credentials...
-2025-03-15 16:36:40 INFO  TC_005_BSKT_CreateFundManagerTest:50 - Navigated to Create Fund Manager page.
-2025-03-15 16:36:47 INFO  TC_005_BSKT_CreateFundManagerTest:73 - Test Case Passed: Fund Manager created successfully.
-2025-03-15 16:36:47 INFO  TC_005_BSKT_CreateFundManagerTest:86 - ***** Finished TC_005_BSKT_CreateFundManagerTest *****
-2025-03-15 16:36:57 INFO  TC_006_BSKT_InvalidFundManagerTest:16 - ****Starting TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 16:36:57 INFO  TC_006_BSKT_InvalidFundManagerTest:22 - Click on login Link
-2025-03-15 16:37:02 ERROR TC_006_BSKT_InvalidFundManagerTest:68 - Test failed element click intercepted: Element <a _ngcontent-serveapp-c795886533="" id="basketAdmin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">...</a> is not clickable at point (920, 17). Other element would receive the click: <div _ngcontent-serveapp-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ced7bc8be56bbb0107e27da6c28db685, clickElement {id=f.44862BF04DE905A2731CC23C06DBE9A7.d.AB7634E4E77949615C2D1305B68BAF3C.e.1052}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54589/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ced7bc8be56bbb0107e27da6c28db685)] -> xpath: //a[@id='basketAdmin']]
-Session ID: ced7bc8be56bbb0107e27da6c28db685
-2025-03-15 16:37:02 INFO  TC_006_BSKT_InvalidFundManagerTest:73 - ****Finished TC_006_BSKT_InvalidFundManagerTest *****
-2025-03-15 17:36:47 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:16 - ****Started TC_007_BSKT_InvalidPhoneNumberTest ****
-2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:22 - Clicked on login details
-2025-03-15 17:36:53 INFO  TC_007_BSKT_InvalidPhoneNumberTest:27 - Providing Admin Credentials...
-2025-03-15 17:38:36 ERROR TC_007_BSKT_InvalidPhoneNumberTest:60 - Test failedelement click intercepted: Element <a _ngcontent-serveapp-c795886533="" id="basketAdmin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">...</a> is not clickable at point (920, 17). Other element would receive the click: <div _ngcontent-serveapp-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f365b78b388e240201c40f1dfcac2246, clickElement {id=f.636233256F079853DCB0851D9D360C72.d.F6C172C3F75EB3334BA2B4C461CED4F1.e.1024}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56294}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56294/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f365b78b388e240201c40f1dfcac2246)] -> xpath: //a[@id='basketAdmin']]
-Session ID: f365b78b388e240201c40f1dfcac2246
-2025-03-15 17:38:36 INFO  TC_007_BSKT_InvalidPhoneNumberTest:65 - ****Finished TC_007_BSKT_InvalidPhoneNumberTest****
-2025-03-15 17:39:01 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:16 - ****Started TC_007_BSKT_InvalidPhoneNumberTest ****
-2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:22 - Clicked on login details
-2025-03-15 17:39:08 INFO  TC_007_BSKT_InvalidPhoneNumberTest:27 - Providing Admin Credentials...
-2025-03-15 17:39:13 INFO  TC_007_BSKT_InvalidPhoneNumberTest:40 - Navigated to Create Fund Manager page.
-2025-03-15 17:39:16 INFO  TC_007_BSKT_InvalidPhoneNumberTest:55 - Test Case Passed: Error message displayed for invalid phone number.
-2025-03-15 17:39:16 INFO  TC_007_BSKT_InvalidPhoneNumberTest:65 - ****Finished TC_007_BSKT_InvalidPhoneNumberTest****
-2025-03-15 17:53:07 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
-
-2025-03-15 17:53:14 INFO  TC_008_BSKT_InvalidEmailTest:16 - **** Starting TC_008_BSKT_InvalidEmailTest *****
-2025-03-15 17:53:14 INFO  TC_008_BSKT_InvalidEmailTest:20 - Clicked on login Link.. 
-2025-03-15 17:53:14 INFO  TC_008_BSKT_InvalidEmailTest:24 - Providing Admin Credentials...
-2025-03-15 17:53:19 INFO  TC_008_BSKT_InvalidEmailTest:37 - Navigated to Create Fund Manager page.
-2025-03-15 17:53:23 INFO  TC_008_BSKT_InvalidEmailTest:54 - Test Case Passed: Error message displayed for invalid email ID.
-2025-03-15 17:53:23 INFO  TC_008_BSKT_InvalidEmailTest:60 - ***** Finished TC_008_BSKT_InvalidEmailTest *****
+2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:16 - **** Starting TC_010_BSKT_AdminApprovesBasketTest **** 
+2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:22 - Clicked Logined link....
+2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:28 - Providing Admin credentilas....
+2025-03-18 00:10:49 INFO  TC_010_BSKT_AdminApprovesBasketTest:43 - Fetching Pending Basket Count...
+2025-03-18 00:10:49 INFO  TC_010_BSKT_AdminApprovesBasketTest:45 - Pending baskets before approval: 2
+2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:56 - Pending baskets after approval: 1
+2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:59 - Test Passed: The approved basket has been removed successfully.
+2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:73 - **** Finished TC_010_BSKT_AdminApprovesBasketTest *****

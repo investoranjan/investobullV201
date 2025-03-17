@@ -23,11 +23,12 @@
         <class name="testCases.TC_004_BSKT_CreateFundManagerPageTest"/>
         <class name="testCases.TC_005_BSKT_CreateFundManagerTest"/>
         <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> 
-	    <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />-->
+	    <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />
 	    
 	    <class name="testCases.TC_008_BSKT_InvalidEmailTest" />
+	    <class name="testCases.TC_009_BSKT_ApprovePendingBasketTest" />-->
 			
-			
+			<class name="testCases.TC_010_BSKT_AdminApprovesBasketTest" />
 
 		</classes>
 	</test>
