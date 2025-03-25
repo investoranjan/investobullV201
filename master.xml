@@ -24,12 +24,24 @@
         <class name="testCases.TC_005_BSKT_CreateFundManagerTest"/>
         <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> 
 	    <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />
-	    
 	    <class name="testCases.TC_008_BSKT_InvalidEmailTest" />
-	    <class name="testCases.TC_009_BSKT_ApprovePendingBasketTest" />-->
-			
-			<class name="testCases.TC_010_BSKT_AdminApprovesBasketTest" />
-
+	    <class name="testCases.TC_009_BSKT_ApprovePendingBasketTest" />	
+		<class name="testCases.TC_010_BSKT_AdminApprovesBasketTest" />
+		<class name="testCases.TC_011_BSKT_AdminRejectsBasketTest" />	
+		<class name="testCases.TC_012_BSKT_ViewRejectedBasketTest" />
+		<class name="testCases.TC_013_BSKT_AdminViewFundManagerDetails" />
+		<class name="testCases.TC_012_BSKT_ViewRejectedBasketTest" />
+		<class name="testCases.TC_014_EditFundManagerTest" />
+        <class name="testCases.TC_015_DuplicateMobileNumberTest" />
+        
+        <class name="testCases.TC_016_EditFundManagerDetailsTest" />
+        
+        
+        <class name="testCases.TC_017_ViewBasketDetailsTest" />-->
+        
+        <class name="testCases.TC_018_AdminPausesBasketTest" />
+ 
+            
 		</classes>
 	</test>
 </suite>

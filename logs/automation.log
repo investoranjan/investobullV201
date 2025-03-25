@@ -1,11 +1,283 @@
-2025-03-18 00:10:39 INFO  Utils:112 - [TestNG] Running:
+2025-03-25 00:24:13 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
 
-2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:16 - **** Starting TC_010_BSKT_AdminApprovesBasketTest **** 
-2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:22 - Clicked Logined link....
-2025-03-18 00:10:44 INFO  TC_010_BSKT_AdminApprovesBasketTest:28 - Providing Admin credentilas....
-2025-03-18 00:10:49 INFO  TC_010_BSKT_AdminApprovesBasketTest:43 - Fetching Pending Basket Count...
-2025-03-18 00:10:49 INFO  TC_010_BSKT_AdminApprovesBasketTest:45 - Pending baskets before approval: 2
-2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:56 - Pending baskets after approval: 1
-2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:59 - Test Passed: The approved basket has been removed successfully.
-2025-03-18 00:10:56 INFO  TC_010_BSKT_AdminApprovesBasketTest:73 - **** Finished TC_010_BSKT_AdminApprovesBasketTest *****
+2025-03-25 00:24:17 INFO  TC_015_DuplicateMobileNumberTest:20 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:24:18 INFO  TC_015_DuplicateMobileNumberTest:28 - Clicked on login Link.. 
+2025-03-25 00:24:18 INFO  TC_015_DuplicateMobileNumberTest:32 - Providing Admin Credentials...
+2025-03-25 00:24:21 ERROR TC_015_DuplicateMobileNumberTest:58 - Test failedelement click intercepted: Element <a _ngcontent-serveapp-c795886533="" id="basketAdmin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">...</a> is not clickable at point (920, 17). Other element would receive the click: <div _ngcontent-serveapp-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: chrome=134.0.6998.119)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f18f611a3b9ca035788ce95232cfbca2, clickElement {id=f.A49D897DE6BA077950810D0F90C295CE.d.18AB3D35AC111C53848712F495281464.e.1345}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.119, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62917/devtoo..., se:cdpVersion: 134.0.6998.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f18f611a3b9ca035788ce95232cfbca2)] -> xpath: //a[@id='basketAdmin']]
+Session ID: f18f611a3b9ca035788ce95232cfbca2
+2025-03-25 00:24:21 INFO  TC_015_DuplicateMobileNumberTest:64 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:25:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:25:21 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:25:22 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:25:22 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:25:26 ERROR TC_015_DuplicateMobileNumberTest:53 - Test failedKeys to send should be a not null CharSequence
+2025-03-25 00:25:26 INFO  TC_015_DuplicateMobileNumberTest:59 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:29:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:29:39 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:29:39 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:29:39 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:29:45 ERROR TC_015_DuplicateMobileNumberTest:56 - Test failedKeys to send should be a not null CharSequence
+2025-03-25 00:29:45 INFO  TC_015_DuplicateMobileNumberTest:62 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:33:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:33:11 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:33:11 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:33:11 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:33:15 ERROR TC_015_DuplicateMobileNumberTest:56 - Test failedelement click intercepted: Element <a _ngcontent-serveapp-c795886533="" id="basketAdmin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">...</a> is not clickable at point (920, 17). Other element would receive the click: <div _ngcontent-serveapp-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=134.0.6998.119)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [983508e0d972f4f8f73d515618212bc4, clickElement {id=f.99AF0EF2BFF4D2934464867F89A9EB6E.d.73F9AD548DEFB4BDF9F536A527270A70.e.1338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.119, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63417/devtoo..., se:cdpVersion: 134.0.6998.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (983508e0d972f4f8f73d515618212bc4)] -> xpath: //a[@id='basketAdmin']]
+Session ID: 983508e0d972f4f8f73d515618212bc4
+2025-03-25 00:33:15 INFO  TC_015_DuplicateMobileNumberTest:62 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:33:36 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:33:41 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:33:41 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:33:41 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:33:46 ERROR TC_015_DuplicateMobileNumberTest:56 - Test failedMobile number cannot be null or empty!
+2025-03-25 00:33:46 INFO  TC_015_DuplicateMobileNumberTest:62 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:37:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:37:26 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:37:26 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:37:26 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:37:31 INFO  TC_015_DuplicateMobileNumberTest:51 - ✅ 'Phone No Already Registered' message displayed!
+2025-03-25 00:37:31 INFO  TC_015_DuplicateMobileNumberTest:62 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:38:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:38:52 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:38:52 INFO  TC_015_DuplicateMobileNumberTest:24 - Clicked on login Link.. 
+2025-03-25 00:38:52 INFO  TC_015_DuplicateMobileNumberTest:28 - Providing Admin Credentials...
+2025-03-25 00:38:57 ERROR TC_015_DuplicateMobileNumberTest:56 - Test failedMobile number cannot be null or empty!
+2025-03-25 00:38:57 INFO  TC_015_DuplicateMobileNumberTest:62 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\AppData\Local\Temp\testng-eclipse--1292849398\testng-customsuite.xml
+
+2025-03-25 00:40:44 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3b7ff809: 235 ms
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@674658f7: 41 ms
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@f667fe: 50 ms
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@15cafec7: 17 ms
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4c4d27c8: 14 ms
+2025-03-25 00:40:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6821ea29: 0 ms
+2025-03-25 00:40:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:40:59 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:40:59 INFO  TC_015_DuplicateMobileNumberTest:23 - Clicked on login Link.. 
+2025-03-25 00:40:59 INFO  TC_015_DuplicateMobileNumberTest:27 - Providing Admin Credentials...
+2025-03-25 00:41:03 ERROR TC_015_DuplicateMobileNumberTest:52 - Test failedMobile number cannot be null or empty!
+2025-03-25 00:41:03 INFO  TC_015_DuplicateMobileNumberTest:58 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:41:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:41:30 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:41:31 INFO  TC_015_DuplicateMobileNumberTest:23 - Clicked on login Link.. 
+2025-03-25 00:41:31 INFO  TC_015_DuplicateMobileNumberTest:27 - Providing Admin Credentials...
+2025-03-25 00:41:35 ERROR TC_015_DuplicateMobileNumberTest:52 - Test failedMobile number cannot be null or empty!
+2025-03-25 00:41:35 INFO  TC_015_DuplicateMobileNumberTest:58 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\AppData\Local\Temp\testng-eclipse-2082121981\testng-customsuite.xml
+
+2025-03-25 00:42:17 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3b7ff809: 214 ms
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@674658f7: 39 ms
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@f667fe: 92 ms
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@15cafec7: 26 ms
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1f2f9244: 11 ms
+2025-03-25 00:42:17 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4c4d27c8: 2 ms
+2025-03-25 00:42:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 00:42:41 INFO  TC_015_DuplicateMobileNumberTest:16 - **** Starting TC_015_DuplicateMobileNumberTest****
+2025-03-25 00:42:41 INFO  TC_015_DuplicateMobileNumberTest:23 - Clicked on login Link.. 
+2025-03-25 00:42:41 INFO  TC_015_DuplicateMobileNumberTest:27 - Providing Admin Credentials...
+2025-03-25 00:42:46 INFO  TC_015_DuplicateMobileNumberTest:47 - ✅ 'Phone No Already Registered' message displayed!
+2025-03-25 00:42:46 INFO  TC_015_DuplicateMobileNumberTest:58 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 01:12:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 01:13:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 01:13:20 INFO  TC_016_EditFundManagerDetailsTest:17 - **** TC_016_EditFundManagerDetailsTest****
+2025-03-25 01:13:21 INFO  TC_016_EditFundManagerDetailsTest:24 - Clicked on login Link.. 
+2025-03-25 01:13:21 INFO  TC_016_EditFundManagerDetailsTest:28 - Providing Admin Credentials...
+2025-03-25 01:13:26 INFO  TC_016_EditFundManagerDetailsTest:49 - ✅ 'Fund manager Updated Successfully' message displayed!
+2025-03-25 01:13:26 INFO  TC_016_EditFundManagerDetailsTest:59 - **** Closed TC_015_DuplicateMobileNumberTest****
+2025-03-25 15:20:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 15:20:56 INFO  TC_017_ViewBasketDetailsTest:16 - **** Staring TC_017_ViewBasketDetailsTest****
+2025-03-25 15:20:56 INFO  TC_017_ViewBasketDetailsTest:23 - Clicked on login Link.. 
+2025-03-25 15:20:56 INFO  TC_017_ViewBasketDetailsTest:27 - Providing Admin Credentials...
+2025-03-25 15:21:00 INFO  TC_017_ViewBasketDetailsTest:54 - **** Closed TC_017_ViewBasketDetailsTest****
+2025-03-25 15:21:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 15:21:30 INFO  TC_017_ViewBasketDetailsTest:16 - **** Staring TC_017_ViewBasketDetailsTest****
+2025-03-25 15:21:30 INFO  TC_017_ViewBasketDetailsTest:23 - Clicked on login Link.. 
+2025-03-25 15:21:30 INFO  TC_017_ViewBasketDetailsTest:27 - Providing Admin Credentials...
+2025-03-25 15:21:40 INFO  TC_017_ViewBasketDetailsTest:44 - ✅ Basket details and stocks section are visible!
+2025-03-25 15:21:40 INFO  TC_017_ViewBasketDetailsTest:54 - **** Closed TC_017_ViewBasketDetailsTest****
+2025-03-25 17:23:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:23:14 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:23:14 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:23:14 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:23:15 INFO  TC_018_AdminPausesBasketTest:35 - navigate to Basket admin approval page...
+2025-03-25 17:23:17 INFO  TC_018_AdminPausesBasketTest:57 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:23:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:23:38 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:23:38 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:23:38 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:23:39 INFO  TC_018_AdminPausesBasketTest:35 - navigate to Basket admin approval page...
+2025-03-25 17:23:41 INFO  TC_018_AdminPausesBasketTest:57 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:23:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:24:01 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:24:02 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:24:02 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:24:03 INFO  TC_018_AdminPausesBasketTest:35 - navigate to Basket admin approval page...
+2025-03-25 17:24:05 INFO  TC_018_AdminPausesBasketTest:57 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:24:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:24:47 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:24:47 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:24:47 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:24:48 INFO  TC_018_AdminPausesBasketTest:35 - navigate to Basket admin approval page...
+2025-03-25 17:24:50 INFO  TC_018_AdminPausesBasketTest:57 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:25:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:25:42 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:25:43 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:25:43 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:25:46 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:25:47 INFO  TC_018_AdminPausesBasketTest:59 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:26:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:26:37 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:26:38 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:26:38 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:26:40 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:26:45 INFO  TC_018_AdminPausesBasketTest:61 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:27:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:27:18 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:27:19 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:27:19 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:27:22 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:27:26 INFO  TC_018_AdminPausesBasketTest:61 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:31:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:31:24 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:31:25 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:31:25 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:31:28 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:31:29 INFO  TC_018_AdminPausesBasketTest:61 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:31:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:31:59 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:32:01 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:32:01 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:32:04 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:32:05 INFO  TC_018_AdminPausesBasketTest:61 - **** Closed TC_018_AdminPausesBasketTest ****
+2025-03-25 17:32:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Investobull-dev\eclipse-workspace\Seleniumwebdriver\investobullV201\master.xml
+
+2025-03-25 17:32:32 INFO  TC_018_AdminPausesBasketTest:16 - **** Starting TC_018_AdminPausesBasketTest ****
+2025-03-25 17:32:32 INFO  TC_018_AdminPausesBasketTest:24 - Clicked login link
+2025-03-25 17:32:32 INFO  TC_018_AdminPausesBasketTest:28 - Providing Admin Credentials...
+2025-03-25 17:32:37 INFO  TC_018_AdminPausesBasketTest:37 - navigate to Basket admin approval page...
+2025-03-25 17:32:42 INFO  TC_018_AdminPausesBasketTest:51 - ✅ 'Basket subscription has been Paused' message displayed!
+2025-03-25 17:32:42 INFO  TC_018_AdminPausesBasketTest:61 - **** Closed TC_018_AdminPausesBasketTest ****

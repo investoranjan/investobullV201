@@ -15,6 +15,7 @@ public class HomePage extends BasePage {
 	WebElement lnklogin;
 	
 	@FindBy(xpath="//a[@id='basketAdmin']")
+	public
 	WebElement basketDropdown;
 	
 	@FindBy(xpath="//a[normalize-space()='Fund Managers']")

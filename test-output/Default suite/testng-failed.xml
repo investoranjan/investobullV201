@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_005_BSKT_CreateFundManagerTest">
+      <class name="testCases.TC_015_DuplicateMobileNumberTest">
         <methods>
+          <include name="testDuplicateMobileNumberValidation"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="createFundManager"/>
         </methods>
-      </class> <!-- testCases.TC_005_BSKT_CreateFundManagerTest -->
+      </class> <!-- testCases.TC_015_DuplicateMobileNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

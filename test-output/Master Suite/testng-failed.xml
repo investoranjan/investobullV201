@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_009_BSKT_ApprovePendingBasketTest">
+      <class name="testCases.TC_018_AdminPausesBasketTest">
         <methods>
           <include name="tearDown"/>
-          <include name="approvePendingBasket"/>
+          <include name="testAdminPausesBasket"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_009_BSKT_ApprovePendingBasketTest -->
+      </class> <!-- testCases.TC_018_AdminPausesBasketTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
