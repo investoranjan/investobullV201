@@ -16,32 +16,33 @@
 		</groups>
 		<classes>
 
+        	<class name="testCases.TC_001_BSKT__SuccessfulLoginTest" />
+			<class name="testCases.TC_002_BSKT_FundManagerRedirectionTest" />
+			<class name="testCases.TC_003_BSKT_FundManagerDetailsTest" />
+			<class name="testCases.TC_004_BSKT_CreateFundManagerPageTest" />
+			<class name="testCases.TC_005_BSKT_CreateFundManagerTest" />
+			<class name="testCases.TC_006_BSKT_InvalidFundManagerTest" />
+			<class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />
+			<class name="testCases.TC_008_BSKT_InvalidEmailTest" />
+			<class name="testCases.TC_009_BSKT_ApprovePendingBasketTest" />
+			<class name="testCases.TC_010_BSKT_AdminApprovesBasketTest" />
+			<class name="testCases.TC_011_BSKT_AdminRejectsBasketTest" />
+			<class name="testCases.TC_013_BSKT_AdminViewFundManagerDetails" />
+			<class name="testCases.TC_014_EditFundManagerTest" />
+			<class name="testCases.TC_015_DuplicateMobileNumberTest" />
+			<class name="testCases.TC_016_EditFundManagerDetailsTest" />
+			<class name="testCases.TC_017_ViewBasketDetailsTest" />
+			<class name="testCases.TC_018_AdminPausesBasketTest" />
+			<class name="testCases.TC_021_BSKT_SortBasketsByName" />
+             <class name="testCases.TC_022_BSKT_SortBasketsByStockCount" />
+             <class name="testCases.TC_023_ValidateBasketFiltersTest"/>
+             <class name="testCases.TC_024_SortBasketsByMinInvestmentTest"/>
+              <class name="testCases.TC_025_SortBasketsByCAGRTest"/>
+
+
 			<!-- 
-        <class name="testCases.TC_001_BSKT__SuccessfulLoginTest"/> 
-        <class name="testCases.TC_002_BSKT_FundManagerRedirectionTest"/>
-        <class name="testCases.TC_003_BSKT_FundManagerDetailsTest"/>
-        <class name="testCases.TC_004_BSKT_CreateFundManagerPageTest"/>
-        <class name="testCases.TC_005_BSKT_CreateFundManagerTest"/>
-        <class name="testCases.TC_006_BSKT_InvalidFundManagerTest"/> 
-	    <class name="testCases.TC_007_BSKT_InvalidPhoneNumberTest" />
-	    <class name="testCases.TC_008_BSKT_InvalidEmailTest" />
-	    <class name="testCases.TC_009_BSKT_ApprovePendingBasketTest" />	
-		<class name="testCases.TC_010_BSKT_AdminApprovesBasketTest" />
-		<class name="testCases.TC_011_BSKT_AdminRejectsBasketTest" />	
-		<class name="testCases.TC_012_BSKT_ViewRejectedBasketTest" />
-		<class name="testCases.TC_013_BSKT_AdminViewFundManagerDetails" />
-		<class name="testCases.TC_012_BSKT_ViewRejectedBasketTest" />
-		<class name="testCases.TC_014_EditFundManagerTest" />
-        <class name="testCases.TC_015_DuplicateMobileNumberTest" />
-        
-        <class name="testCases.TC_016_EditFundManagerDetailsTest" />
-        
-        
-        <class name="testCases.TC_017_ViewBasketDetailsTest" />-->
-        
-        <class name="testCases.TC_018_AdminPausesBasketTest" />
- 
-            
+            <class name="testCases.TC_019_VerifyInfoButtonTest" />
+            <class name="testCases.TC_012_BSKT_ViewRejectedBasketTest" /> -->
 		</classes>
 	</test>
 </suite>

@@ -8,13 +8,27 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_018_AdminPausesBasketTest">
+      <class name="testCases.TC_016_EditFundManagerDetailsTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testAdminPausesBasket"/>
+          <include name="setup"/>
+          <include name="testDuplicateMobileNumberValidation"/>
+        </methods>
+      </class> <!-- testCases.TC_016_EditFundManagerDetailsTest -->
+      <class name="testCases.TC_015_DuplicateMobileNumberTest">
+        <methods>
+          <include name="testDuplicateMobileNumberValidation"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_018_AdminPausesBasketTest -->
+      </class> <!-- testCases.TC_015_DuplicateMobileNumberTest -->
+      <class name="testCases.TC_012_BSKT_ViewRejectedBasketTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewRejectedBasketHistory"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_012_BSKT_ViewRejectedBasketTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

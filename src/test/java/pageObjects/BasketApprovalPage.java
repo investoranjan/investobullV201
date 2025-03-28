@@ -42,6 +42,16 @@ public class BasketApprovalPage extends BasePage {
 	
 	@FindBy(xpath="//div[@role='alert' and contains(text(), 'Basket subscription has been Paused')]")
 	WebElement successNotification;
+	
+	
+	// click on filter button to open filter section
+	@FindBy(xpath="//button[normalize-space()='Add Filters']")
+	WebElement addFilterButton;
+	
+	
+	//Filter section Header
+	@FindBy(xpath="//h4[normalize-space()='Basket Filters']")
+	WebElement basketFilterSection;
 
 	public void clickPendingStockBaskets() {
 		pendingStockBaskets.click();
@@ -106,6 +116,14 @@ public class BasketApprovalPage extends BasePage {
     public boolean isPauseNotificationDisplayed() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         return wait.until(ExpectedConditions.visibilityOf(successNotification)).isDisplayed();
+    }
+    
+    public void clickAddFilter() {
+    	addFilterButton.click();
+    }
+    
+    public boolean isBasketFilterSectionDisplayed() {
+    	return basketFilterSection.isDisplayed();
     }
 
 }

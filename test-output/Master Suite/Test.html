@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 25 17:32:27 IST 2025</td>
+<td>Started on:</td><td>Thu Mar 27 16:52:20 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15179 ms)</td>
+<tr><td>Total time:</td><td>293 seconds (293015 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,145 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_015_DuplicateMobileNumberTest.testDuplicateMobileNumberValidation()'><b>testDuplicateMobileNumberValidation</b><br>Test class: testCases.TC_015_DuplicateMobileNumberTest</td>
+<td><div><pre>java.lang.AssertionError: Test failedExpected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@role=&apos;alert&apos; and contains(text(), &apos;Phone No Already registered&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at testCases.TC_015_DuplicateMobileNumberTest.testDuplicateMobileNumberValidation(TC_015_DuplicateMobileNumberTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26338900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26338900'><pre>java.lang.AssertionError: Test failedExpected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@role=&apos;alert&apos; and contains(text(), &apos;Phone No Already registered&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC_015_DuplicateMobileNumberTest.testDuplicateMobileNumberValidation(TC_015_DuplicateMobileNumberTest.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>24</td>
+<td>testCases.TC_015_DuplicateMobileNumberTest@5f0e9815</td></tr>
+<tr>
+<td title='testCases.TC_012_BSKT_ViewRejectedBasketTest.viewRejectedBasketHistory()'><b>viewRejectedBasketHistory</b><br>Test class: testCases.TC_012_BSKT_ViewRejectedBasketTest</td>
+<td><div><pre>java.lang.AssertionError: Test failed due to exception: element click intercepted: Element &lt;a _ngcontent-serveapp-c2563541569=&quot;&quot; style=&quot;cursor: pointer;&quot;&gt;...&lt;/a&gt; is not clickable at point (1257, 287). Other element would receive the click: &lt;div _ngcontent-serveapp-c2563541569=&quot;&quot; class=&quot;d-flex align-items-end&quot; style=&quot;margin-top: -5rem;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=134.0.6998.177)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a846e3bd6c132af8d0fd61231ed773a2, clickElement {id=f.55A1DA7979A6A0B7DC0C8387CEA3FE3E.d.A6FD98C37971AB4FFF890962BE406C68.e.3197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.177, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51799/devtoo..., se:cdpVersion: 134.0.6998.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a846e3bd6c132af8d0fd61231ed773a2)] -&gt; xpath: /html/body/app-root/div/app-admin-basket-approval/div/div[3]/div/div[1]/div/mat-table/mat-row[1]/mat-cell[11]/div/a]
+Session ID: a846e3bd6c132af8d0fd61231ed773a2
+	at testCases.TC_012_BSKT_ViewRejectedBasketTest.viewRejectedBasketHistory(TC_012_BSKT_ViewRejectedBasketTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1923590735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1923590735'><pre>java.lang.AssertionError: Test failed due to exception: element click intercepted: Element &lt;a _ngcontent-serveapp-c2563541569=&quot;&quot; style=&quot;cursor: pointer;&quot;&gt;...&lt;/a&gt; is not clickable at point (1257, 287). Other element would receive the click: &lt;div _ngcontent-serveapp-c2563541569=&quot;&quot; class=&quot;d-flex align-items-end&quot; style=&quot;margin-top: -5rem;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=134.0.6998.177)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a846e3bd6c132af8d0fd61231ed773a2, clickElement {id=f.55A1DA7979A6A0B7DC0C8387CEA3FE3E.d.A6FD98C37971AB4FFF890962BE406C68.e.3197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.177, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\INVEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51799/devtoo..., se:cdpVersion: 134.0.6998.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a846e3bd6c132af8d0fd61231ed773a2)] -&gt; xpath: /html/body/app-root/div/app-admin-basket-approval/div/div[3]/div/div[1]/div/mat-table/mat-row[1]/mat-cell[11]/div/a]
+Session ID: a846e3bd6c132af8d0fd61231ed773a2
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC_012_BSKT_ViewRejectedBasketTest.viewRejectedBasketHistory(TC_012_BSKT_ViewRejectedBasketTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>9</td>
+<td>testCases.TC_012_BSKT_ViewRejectedBasketTest@45fd9a4d</td></tr>
+<tr>
+<td title='testCases.TC_016_EditFundManagerDetailsTest.testDuplicateMobileNumberValidation()'><b>testDuplicateMobileNumberValidation</b><br>Test class: testCases.TC_016_EditFundManagerDetailsTest</td>
+<td><div><pre>java.lang.AssertionError: Test failedExpected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@role=&apos;alert&apos; and contains(text(), &apos;Fund manager Updated Successfully&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at testCases.TC_016_EditFundManagerDetailsTest.testDuplicateMobileNumberValidation(TC_016_EditFundManagerDetailsTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1492291772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1492291772'><pre>java.lang.AssertionError: Test failedExpected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@role=&apos;alert&apos; and contains(text(), &apos;Fund manager Updated Successfully&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC_016_EditFundManagerDetailsTest.testDuplicateMobileNumberValidation(TC_016_EditFundManagerDetailsTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>25</td>
+<td>testCases.TC_016_EditFundManagerDetailsTest@76884e4b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +215,80 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC_011_BSKT_AdminRejectsBasketTest.rejectPendingBasket()'><b>rejectPendingBasket</b><br>Test class: testCases.TC_011_BSKT_AdminRejectsBasketTest</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC_011_BSKT_AdminRejectsBasketTest@2b4c1d96</td></tr>
+<tr>
+<td title='testCases.TC_013_BSKT_AdminViewFundManagerDetails.viewFundManagerDetails()'><b>viewFundManagerDetails</b><br>Test class: testCases.TC_013_BSKT_AdminViewFundManagerDetails</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_013_BSKT_AdminViewFundManagerDetails@50468873</td></tr>
+<tr>
+<td title='testCases.TC_005_BSKT_CreateFundManagerTest.createFundManager()'><b>createFundManager</b><br>Test class: testCases.TC_005_BSKT_CreateFundManagerTest</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC_005_BSKT_CreateFundManagerTest@530712d</td></tr>
+<tr>
+<td title='testCases.TC_008_BSKT_InvalidEmailTest.createFundManagerWithInvalidEmail()'><b>createFundManagerWithInvalidEmail</b><br>Test class: testCases.TC_008_BSKT_InvalidEmailTest</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC_008_BSKT_InvalidEmailTest@4ff4357f</td></tr>
+<tr>
+<td title='testCases.TC_014_EditFundManagerTest.testEditFundManagerDetails()'><b>testEditFundManagerDetails</b><br>Test class: testCases.TC_014_EditFundManagerTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_014_EditFundManagerTest@146587a2</td></tr>
+<tr>
 <td title='testCases.TC_018_AdminPausesBasketTest.testAdminPausesBasket()'><b>testAdminPausesBasket</b><br>Test class: testCases.TC_018_AdminPausesBasketTest</td>
 <td></td>
-<td>9</td>
-<td>testCases.TC_018_AdminPausesBasketTest@22295ec4</td></tr>
+<td>7</td>
+<td>testCases.TC_018_AdminPausesBasketTest@2a898881</td></tr>
+<tr>
+<td title='testCases.TC_003_BSKT_FundManagerDetailsTest.verifyFundManagerDetails()'><b>verifyFundManagerDetails</b><br>Test class: testCases.TC_003_BSKT_FundManagerDetailsTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC_003_BSKT_FundManagerDetailsTest@517566b</td></tr>
+<tr>
+<td title='testCases.TC_009_BSKT_ApprovePendingBasketTest.approvePendingBasket()'><b>approvePendingBasket</b><br>Test class: testCases.TC_009_BSKT_ApprovePendingBasketTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_009_BSKT_ApprovePendingBasketTest@49cb9cb5</td></tr>
+<tr>
+<td title='testCases.TC_017_ViewBasketDetailsTest.testViewBasketDetails()'><b>testViewBasketDetails</b><br>Test class: testCases.TC_017_ViewBasketDetailsTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC_017_ViewBasketDetailsTest@126945f9</td></tr>
+<tr>
+<td title='testCases.TC_002_BSKT_FundManagerRedirectionTest.verifyFundManagerRedirection()'><b>verifyFundManagerRedirection</b><br>Test class: testCases.TC_002_BSKT_FundManagerRedirectionTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_002_BSKT_FundManagerRedirectionTest@2f40e5db</td></tr>
+<tr>
+<td title='testCases.TC_006_BSKT_InvalidFundManagerTest.createFundManagerWithInvalidData()'><b>createFundManagerWithInvalidData</b><br>Test class: testCases.TC_006_BSKT_InvalidFundManagerTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_006_BSKT_InvalidFundManagerTest@2df6226d</td></tr>
+<tr>
+<td title='testCases.TC_004_BSKT_CreateFundManagerPageTest.verifyCreateFundManagerPage()'><b>verifyCreateFundManagerPage</b><br>Test class: testCases.TC_004_BSKT_CreateFundManagerPageTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_004_BSKT_CreateFundManagerPageTest@64b73e7a</td></tr>
+<tr>
+<td title='testCases.TC_010_BSKT_AdminApprovesBasketTest.aprovePendingBasket()'><b>aprovePendingBasket</b><br>Test class: testCases.TC_010_BSKT_AdminApprovesBasketTest</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC_010_BSKT_AdminApprovesBasketTest@55322aab</td></tr>
+<tr>
+<td title='testCases.TC_001_BSKT__SuccessfulLoginTest.verifySuccessfulLogin()'><b>verifySuccessfulLogin</b><br>Test class: testCases.TC_001_BSKT__SuccessfulLoginTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_001_BSKT__SuccessfulLoginTest@2a448449</td></tr>
+<tr>
+<td title='testCases.TC_007_BSKT_InvalidPhoneNumberTest.createFundManagerWithInvalidPhoneNumber()'><b>createFundManagerWithInvalidPhoneNumber</b><br>Test class: testCases.TC_007_BSKT_InvalidPhoneNumberTest</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC_007_BSKT_InvalidPhoneNumberTest@12ed9db6</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,16 +1,9 @@
 package testCases;
 
-import java.time.Duration;
-
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountLoginPage;
-import pageObjects.BasketApprovalPage;
 import pageObjects.BasketRejectpage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
@@ -42,9 +35,6 @@ public class TC_012_BSKT_ViewRejectedBasketTest extends BaseClass{
             hp.clickbasketApproval();
             logger.info("Navigated to Rejected Baskets section");
 
-            // Basket Approval Page
-            BasketApprovalPage baPage = new BasketApprovalPage(driver);
-            
             BasketRejectpage brPage=new BasketRejectpage(driver);
             
             Thread.sleep(3000); 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T17:32:27 IST" name="Master Suite" finished-at="2025-03-25T17:32:42 IST" duration-ms="15179">
+  <suite started-at="2025-03-28T16:39:52 IST" name="SingleTestSuite" finished-at="2025-03-28T16:40:24 IST" duration-ms="31574">
     <groups>
     </groups>
-    <test started-at="2025-03-25T17:32:27 IST" name="Test" finished-at="2025-03-25T17:32:42 IST" duration-ms="15179">
-      <class name="testCases.TC_018_AdminPausesBasketTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_018_AdminPausesBasketTest@22295ec4]" started-at="2025-03-25T17:32:27 IST" name="setup" finished-at="2025-03-25T17:32:32 IST" duration-ms="4801" status="PASS">
+    <test started-at="2025-03-28T16:39:52 IST" name="Test" finished-at="2025-03-28T16:40:24 IST" duration-ms="31574">
+      <class name="testCases.TC_025_SortBasketsByCAGRTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_025_SortBasketsByCAGRTest@512535ff]" started-at="2025-03-28T16:39:53 IST" name="setup" finished-at="2025-03-28T16:40:00 IST" duration-ms="7625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAdminPausesBasket()[pri:0, instance:testCases.TC_018_AdminPausesBasketTest@22295ec4]" started-at="2025-03-25T17:32:32 IST" name="testAdminPausesBasket" finished-at="2025-03-25T17:32:42 IST" duration-ms="9482" status="PASS">
+        <test-method signature="testSortBasketsByCAGR()[pri:0, instance:testCases.TC_025_SortBasketsByCAGRTest@512535ff]" started-at="2025-03-28T16:40:00 IST" name="testSortBasketsByCAGR" finished-at="2025-03-28T16:40:23 IST" duration-ms="22285" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAdminPausesBasket -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_018_AdminPausesBasketTest@22295ec4]" started-at="2025-03-25T17:32:42 IST" name="tearDown" finished-at="2025-03-25T17:32:42 IST" duration-ms="356" status="PASS">
+        </test-method> <!-- testSortBasketsByCAGR -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_025_SortBasketsByCAGRTest@512535ff]" started-at="2025-03-28T16:40:23 IST" name="tearDown" finished-at="2025-03-28T16:40:24 IST" duration-ms="1070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_018_AdminPausesBasketTest -->
+      </class> <!-- testCases.TC_025_SortBasketsByCAGRTest -->
     </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+  </suite> <!-- SingleTestSuite -->
 </testng-results>
