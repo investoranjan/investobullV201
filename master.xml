@@ -34,10 +34,20 @@
 			<class name="testCases.TC_017_ViewBasketDetailsTest" />
 			<class name="testCases.TC_018_AdminPausesBasketTest" />
 			<class name="testCases.TC_021_BSKT_SortBasketsByName" />
-             <class name="testCases.TC_022_BSKT_SortBasketsByStockCount" />
-             <class name="testCases.TC_023_ValidateBasketFiltersTest"/>
-             <class name="testCases.TC_024_SortBasketsByMinInvestmentTest"/>
-              <class name="testCases.TC_025_SortBasketsByCAGRTest"/>
+            <class name="testCases.TC_022_BSKT_SortBasketsByStockCount" />
+            <class name="testCases.TC_023_ValidateBasketFiltersTest"/>
+            <class name="testCases.TC_024_SortBasketsByMinInvestmentTest"/>
+            <class name="testCases.TC_025_SortBasketsByCAGRTest"/>
+            <class name="testCases.TC_026_FilterBasketsBySubscriptionTest"/>
+            <class name="testCases.TC_027_FilterBasketsByFreeSubscriptionTest"/>
+            <class name="testCases.TC_028_FilterBasketsByRiskLowTest"/>
+            <class name="testCases.TC_029_FilterBasketsByRiskMediumTest"/>
+            <class name="testCases.TC_030_FilterBasketsByRiskHighTest"/>
+            <class name="testCases.TC_031_FilterBasketsByWeeklyRebalanceTest"/>
+            <class name="testCases.TC_032_FilterBasketsByBiWeeklyRebalanceTest"/>
+            <class name="testCases.TC_033_FilterBasketsByMonthlyRebalanceTest"/>
+            <class name="testCases.TC_034_ValidateImageUploadFundManagerTest"/>
+            
 
 
 			<!-- 

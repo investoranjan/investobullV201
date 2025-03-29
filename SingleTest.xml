@@ -13,7 +13,7 @@
 		<parameter name="browser" value="chrome" />
         
         <classes>
-            <class name="testCases.TC_025_SortBasketsByCAGRTest"/>
+            <class name="testCases.TC_034_ValidateImageUploadFundManagerTest"/>
         </classes>
     </test>
 </suite>
